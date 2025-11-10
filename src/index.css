@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+
+:root {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #F0F0F0;
+  background-color: #1E222A;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+  --color-bg: #1E222A;
+  --color-text: #F0F0F0;
+  --color-p: #B0B5C0;
+  --color-primary: #74A35B;
+  --color-secondary: #E08769;
+
+  /* Para los Títulos de la página y secciones */
+  --font-family-heading: 'Poppins', sans-serif;
+
+  /* Para el Texto principal (párrafos, navegación, descripciones) */
+  --font-family-body: 'Roboto', sans-serif;
+
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #333333;
+    background-color: #F4F1E9;
+    
+    --color-bg: #F4F1E9;
+    --color-text: #333333;
+    --color-p: #6A6A6A;
+    --color-primary: #4A772F;
+    --color-secondary: #B85C3A;
+
+
+
+  }
+
+}
